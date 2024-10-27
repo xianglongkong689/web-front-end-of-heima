@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+            width: 400px;
+            height: 400px;
+            border: 2px solid black;
+            border-left: none; /* 更正属性值 */
+            border-right: none; /* 更正属性值 */
+            padding: 0; /* 移除所有内边距 */
+        }
+        .div1 ol{
+            padding-left: 15px; /* 调整列表的内边距 */
+            margin: 0; /* 移除列表的外边距 */
+        }
+        .div1 .hd{
+            height: 40px;
+            background-color: gray;
+            border: 1px solid black;
+            border-left: 0cap;
+        
+        }
+        .div1 .hd a{
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            display: block;
+            border-right: 1px solid black;
+            border-top: 3px solid orangered;
+            margin-top: -2px;
+            text-decoration: none;
+            text-align: center;
+            line-height: 40px;
+            color: black;
+        }
+        .div1 a{
+            text-decoration: none;
+        }
+        .div1 ol{
+            line-height: 40px;
+        }
+        .div1 ol a:hover{
+            text-decoration: underline;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div class="hd"><a href="#">热榜</a></div>
+        <ol>
+            <li><a href="#">皇马0比4巴萨</a></li>
+            <li><a href="#">神十九发射厂区全系统合练</a></li>
+            <li><a href="#">美国批准19.88亿美元对台军售</a></li>
+            <li><a href="#">拜登回应以色列袭击伊朗</a></li>
+            <li><a href="#">波音把宇航员送太空回不来要撂担子</a></li>
+        </ol>
+    </div>
+</body>
+</html>
