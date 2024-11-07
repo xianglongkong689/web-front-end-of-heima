@@ -1,0 +1,257 @@
+/* 版心 */
+.wrapper{
+    margin: 0 auto;
+    width: 1200px;
+}
+body{
+    background-color: #f3f5f7;}
+/* 头部区域 */
+    .header{
+        background-color:#fff;
+        height: 120px;
+        
+}
+.header .wrapper{
+    display: flex;
+    padding-top: 29px;
+}
+/* logo */
+.logo a{
+    display: block;
+    width: 90px;
+    height: 90px;
+    background-image: url(../upload/OIP-C.jpg);
+    background-size: cover;
+    font-size: 0;
+}
+/* 导航 */
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.nav ul li a{
+    font-size: large;
+}
+.nav ul .active,
+.nav ul li:hover{
+    border-bottom: 3px solid blue;
+}
+/* 搜索 */
+.search{
+    width: 515px;
+    height: 50px;
+    background-color: #fff;
+    border: 3px solid #00a4ff;
+    margin-top: 30px;
+    margin-left: 64px;
+    display: flex;
+}
+.search input{
+    flex: 1;
+    border: 0;
+    background-color: transparent;
+    outline: none;
+}
+.search input::placeholder{
+    font-size: 14px;
+    color: #999;
+}
+.search a{
+    width: 32px;
+    height: 32px;
+    background-image: url(../upload/QQ图片20241031212329.png);
+    background-size: cover;
+    align-self: center;
+}
+.user{
+    margin-left: 32px;
+    margin-top: 35px;
+    flex:1;
+}
+.user a img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.banner{
+    height: 420px;
+    background-color: #00a4ff;
+}
+.banner .wrapper{
+    height: 420px;
+    background-image: url(../upload/202312282557376259694038097_3000x2000_w1.jpg);
+    background-size: contain;
+    display: flex;
+    justify-content: space-between;
+}
+.banner .wrapper .left{
+    width: 200px;
+    height: 420px;
+    background-color: rgba(0,0,0, 0.42);
+}
+.banner .left ul{
+    padding: 4px 20px;
+}
+.banner .wrapper ul li{
+    line-height: 46px;
+    height: 46px;
+}
+.banner .left ul li a{
+    color: #fff;
+    white-space: pre-wrap;
+}
+.banner .left a:hover{
+    color: #00a4ff;
+}
+.banner .right {
+    width: 230px;
+    height: 320px;
+    background-color: #9bceea;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+.banner .right h2{
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+}
+.banner .right .content{
+    width: 230px;
+    height: 270px;
+    background-color: white;
+}
+.banner .right .content ul li{
+    width: 200px;
+    height: 60px;
+    line-height: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+    border-bottom:1px #999 solid;
+}
+.banner .right .content ul{
+    display: block;
+    padding-top: 10px;
+}
+.right a {
+    color: #00a4ff;
+    display: block;
+    width: 200px;
+    height: 40px;
+    border: #00a4ff solid 1px;
+    margin-left: 15px;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+}
+.recommend{
+    background-color: #fff;
+    height: 60px;
+    box-shadow: 0 1px 2px 0 rgba(211, 211, 211, 0.5);
+    margin-top: 10px;
+    display: flex;
+    line-height: 60px;
+    padding: 0 10px;
+      
+}
+.recommend ul{
+    display: flex;
+    flex: 1;
+}
+.recommend ul li a{
+    padding: 0 35px;
+    color: #050505;
+    font-weight: bold;
+    border-left: 1px solid gray;
+}
+.recommend h3{
+    color: #00a4ff;
+    font-weight: normal;
+    margin: 0 30px 0 0;
+}
+.recommend a{
+    color: #00a4ff;
+}
+.title {
+    margin-top: 20px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.title h2{
+    color: #494949;
+    font-size: 20px;
+}
+.title a{
+    margin: 0 30px 0 0;
+    color: #a5a5a5;
+    font-size: 12px;
+}
+.bd ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bd li{
+    background-color: #fff;
+    width: 228px;
+    height: 270px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+.bd li .text h4{
+    padding: 20px;
+}
+.bd li .text p{
+    padding: 0 20px;
+    color: #999;
+    font-size: 12px;
+}
+.bd li .text p span{
+    color:#ff7c2d;
+
+}
+.footer{
+    height: 417px;
+    background-color: #fff;
+    margin-top: 40px 0 0;
+}
+.footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.footer .left p{
+    display: block;
+    font-size: 12px;
+    color: #666;
+    width: 444px;
+    margin: 20px 0 10px;
+    
+}
+.footer .left a{
+    display: block;
+    width: 120px;
+    height: 36px;
+    border: #00a4ff solid 1px;
+    text-align: center;
+    line-height: 36px;
+    color: #00a4ff;
+    font-size: 16px;
+}
+.footer .right dl{
+    margin: 0 0 0 120px;
+}
+.footer .right dt{
+    margin: 0 0 7px;
+    font-size: 16px;
+    color: #6e6e6e;
+}
+.footer .right dd{
+    font-size: 12px;
+    color: #333333;
+
+}
